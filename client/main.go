@@ -9,8 +9,7 @@ import "fmt"
 
 // Run go mod init <project name> first. This goes into a remote repository so don't forget to initialise a new repository
 
-type CircuitBreaker interface {
-}
+type CircuitBreaker interface{}
 
 func main() {
 	fmt.Println("Set up a basic server to implement the circuit breaker pattern")
